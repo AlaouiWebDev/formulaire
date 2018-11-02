@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Inscription</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+</head>
+
+<body class="arriere-plan">
+  <h1>Enquete Football</h1>
+  <section class="container">
+
+    <form class="custom" action="#" method="post">
+
+
+      <p>
+        <label for="firstname"><sup class="etoile">*</sup> Prénom :</label>
+        <input required type="text" name="firstname" id="firstname" placeholder="Cristiano">
+      </p>
+
+      <p>
+        <label for="firstname"><sup class="etoile">*</sup> Nom :</label>
+        <input required type="text" name="firstname" id="firstname" placeholder="Ronaldo">
+      </p>
+
+      <p>
+        <label for="firstname"><sup class="etoile">*</sup> Date de naissance :</label>
+        <input required type="date" name="firstname" id="firstname">
+      </p>
+      <p>
+
+        <p>
+          <label for="firstname"><sup class="etoile">*</sup> Email :</label>
+          <input required type="text" name="firstname" id="firstname" placeholder="toto@outlook.fr"></p>
+
+        <p>
+          <label for="firstname"><sup class="etoile">*</sup> Mot de passe :</label>
+          <input required type="password" name="firstname" id="firstname" placeholder="*****">
+        </p>
+        <p>
+          <label for="firstname"><sup class="etoile">*</sup> Confirmation mot de passe :</label>
+          <input required type="password" name="firstname" id="firstname" placeholder="*****">
+        </p>
+        <p>
+          <label for="preference"><span>Parmis ces joueur de football lequel préférez vous?</span></label><br>
+          <select class="" name="userchoice" id="preference">
+            <option value="Selectionnez une option" disabled selected>Selectionnez une option</option>
+        </p>
+        </optgroup>
+        <optgroup label="Joueur">
+          <option value="Salah">Salah</option>
+          <option value="Ronaldo">Ronaldo</option>
+          <option value="Messi">Messi</option>
+          <option value="Ramos">Ramos</option>
+          <option value="lyon">Mbappe</option>
+        </optgroup>
+        </select>
+
+        </select>
+
+        <p><span>Vous préférez le Real, le Barça ou la Juve ?</span> <br>
+
+          <input type="checkbox" name="ronaldo" id="Real">
+          <label for="Real">Real</label><br>
+
+          <input type="checkbox" name="Barça" id="Barça">
+          <label for="messi">Barça</label><br>
+
+          <input type="checkbox" name="Juve" id="Juve">
+          <label for="salah">Juve</label><br>
+        </p>
+
+        <p><span>Quels compétitions vous préférez ?</span> <br>
+          <input type="radio" name="satisfaction" value="yes" id="yes">
+          <label for="yes">League des champions</label><br>
+          <input type="radio" name="satisfaction" value="yes" id="meh">
+          <label for="yes">Europa League</label><br>
+          <input type="radio" name="satisfaction" value="yes" id="no">
+          <label for="yes">FA Cup</label><br>
+        </p>
+
+        <label for="firstname"><span>Message :</span></label><br>
+        <textarea id="Message" rows="10" cols="50"></textarea>
+      </p>
+
+      <p>
+        <input class="btn" type="submit" name="submitForm" value="ENVOYER">
+      </p>
+  </section>
+  </form>
+</body>
+
+</html>
